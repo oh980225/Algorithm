@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\ohseu\Desktop\Study\Algorithm\Kruskal\Kruskal\main.cpp(71,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Kruskal.vcxproj -> C:\Users\ohseu\Desktop\Study\Algorithm\Kruskal\Debug\Kruskal.exe
