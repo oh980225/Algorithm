@@ -1,2 +1,28 @@
-﻿  1931.cpp
+﻿  1339.cpp
+C:\Users\ohseu\Desktop\Study\Algorithm\Greedy\Greedy\1339.cpp(46,33): warning C4244: '+=': 'double'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+C:\Users\ohseu\Desktop\Study\Algorithm\Greedy\Greedy\1339.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<char,int>::pair<char&,double,0>(_Other1,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=char &,
+              _Other2=double
+          ]
+C:\Users\ohseu\Desktop\Study\Algorithm\Greedy\Greedy\1339.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<char,int>::pair<char&,double,0>(_Other1,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=char &,
+              _Other2=double
+          ]
   Greedy.vcxproj -> C:\Users\ohseu\Desktop\Study\Algorithm\Greedy\Debug\Greedy.exe
