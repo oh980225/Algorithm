@@ -142,6 +142,7 @@
     <ClCompile Include="1080.cpp" />
     <ClCompile Include="1202.cpp" />
     <ClCompile Include="1339.cpp" />
+    <ClCompile Include="1449.cpp" />
     <ClCompile Include="1541.cpp" />
     <ClCompile Include="1715.cpp" />
     <ClCompile Include="1744.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="1931.cpp" />
     <ClCompile Include="1946.cpp" />
     <ClCompile Include="2217.cpp" />
+    <ClCompile Include="2437.cpp" />
     <ClCompile Include="4796.cpp" />
     <ClCompile Include="5585.cpp" />
     <ClCompile Include="priority_queue.cpp" />
