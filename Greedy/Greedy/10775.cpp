@@ -1,29 +1,48 @@
-// ¾ê´Â ³ªÁß¿¡...
-
-//#include <iostream>
-//#include <vector>
-//#include <algorithm>
+//#include <cstdio>
 //
 //using namespace std;
 //
 //int G;
 //int P;
-//vector<int> gate;
+//int gate[100001];
+//
+//int getParent(int x) {
+//	if (gate[x] == x) {
+//		return x;
+//	}
+//	return gate[x] = getParent(gate[x]);
+//}
+//
+//void unionParent(int a, int b) {
+//	a = getParent(a);
+//	b = getParent(b);
+//	gate[a] = b;
+//}
 //
 //int main() {
-//	int gateNum;
+//	int num;
+//	int result = 0;
+//	int parent;
 //
-//	cin >> G;
-//	cin >> P;
+//	scanf("%d", &G);
+//	scanf("%d", &P);
 //
-//	for (int i = 0; i < P; i++) {
-//		cin >> gateNum;
-//		gate.push_back(gateNum);
+//	for (int i = 1; i <= G; i++) {
+//		gate[i] = i;
 //	}
 //
-//	gate.erase(unique(gate.begin(), gate.end()), gate.end());
+//	for (int i = 0; i < P; i++) {
+//		scanf("%d", &num);
+//		parent = getParent(num);
 //
-//	cout << gate.size();
+//		if (parent == 0) {
+//			break;
+//		}
+//		result++;
+//		unionParent(parent, parent - 1);
+//	}
+//
+//	printf("%d", result);
 //
 //	return 0;
 //}

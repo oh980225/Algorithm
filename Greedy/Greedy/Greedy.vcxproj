@@ -157,6 +157,7 @@
     <ClCompile Include="2437.cpp" />
     <ClCompile Include="2810.cpp" />
     <ClCompile Include="2847.cpp" />
+    <ClCompile Include="3109.cpp" />
     <ClCompile Include="4796.cpp" />
     <ClCompile Include="5585.cpp" />
     <ClCompile Include="priority_queue.cpp" />
