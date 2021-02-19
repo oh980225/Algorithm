@@ -143,7 +143,10 @@
     <ClCompile Include="1149.cpp" />
     <ClCompile Include="11726.cpp" />
     <ClCompile Include="1463.cpp" />
+    <ClCompile Include="1932.cpp" />
+    <ClCompile Include="2156.cpp" />
     <ClCompile Include="2579.cpp" />
+    <ClCompile Include="2748.cpp" />
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
